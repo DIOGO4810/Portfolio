@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    margin: 20px;
+}
+
+.container {
+    border-radius: 6px;
+    border: 2px solid aquamarine;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 200px; 
+    padding: 10px;
+    text-align: center;
+}
+
+.text {
+    color: black;
+}
