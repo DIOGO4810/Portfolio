@@ -1,11 +1,21 @@
+@keyframes hackingEffect {
+    0%   { background-color: rgb(0, 29, 19); }
+    20%  { background-color: rgb(0, 50, 30); }
+    40%  { background-color: rgb(0, 80, 50); }
+    60%  { background-color: rgb(1, 136, 89); }
+    80%  { background-color: rgb(1, 90, 60); }
+    100% { background-color: rgb(0, 29, 19); } /* Voltar à cor original */
+}
 .nav{
     position: flex;
     top: 0;
     width: 100%;
     left:0;
-    background-color:rgb(0, 29, 19);
+    /* background-color:rgb(0, 29, 19); */
     height: 70px;
     /* padding: 1rem; */
+    animation: hackingEffect 5s linear infinite; /* Aumentei para 5s e troquei ease-in-out por linear */
+    transition: background-color 2s ease-in-out; /* Torna a transição mais fluida */
 }
 
 .nav-links{

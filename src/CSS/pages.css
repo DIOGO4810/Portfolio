@@ -10,16 +10,38 @@
     margin: 20px;
 }
 
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+
 .container {
     border-radius: 6px;
     border: 2px solid aquamarine;
     background-color: antiquewhite;
-    height: 300px;
-    width: 200px; 
     padding: 10px;
     text-align: center;
+
+
+    animation: bounce 0.5s ease-in-out 2;
+}
+
+.size-1 { width: 300px; height: 200px; }
+.size-2 { width: 400px; height: 200px; }
+.size-3 { width: 500px; height: 300px; }
+
+.container:hover{
+    background-color: aquamarine;
+
 }
 
 .text {
     color: black;
 }
+
+
+
