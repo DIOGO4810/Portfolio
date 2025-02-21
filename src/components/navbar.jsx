@@ -8,6 +8,8 @@ function Navbar() {
         <nav className="nav-links">
             <Link to = "/"> Home</Link>
             <Link to = "/competencias"> Competências</Link>
+            <Link to = "/projetos"> Projetos</Link>
+            
         </nav>
         
         

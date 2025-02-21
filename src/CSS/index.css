@@ -17,9 +17,11 @@ a {
   font-weight: 500;
   color: #00f597;
   text-decoration: inherit;
+  padding: 15px;
 }
 a:hover {
-  color: #02ad6c;
+  color: #003d08;
+  
 }
 
 body {
