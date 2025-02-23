@@ -1,7 +1,27 @@
+import { useState } from 'react';
+import '../CSS/pages.css';
+
 function Projetos() {
-    return  (
-        <div className="container size-1">Projetos</div>
-    ) ;
 
+    const [clicked,setClicked] = useState(false);
 
-}export default Projetos;
+    const handleClick = () => {
+        setClicked(prev => !prev);
+    }
+    
+    return (
+        <div className='body' onClick={handleClick}>
+            <h1 className="title">Home</h1>
+            <div className="grid-parent" >
+                <div className={`container size-1 ${clicked ? "containerCenter" : ""}`} >
+                    <p className="text">projeots</p>
+                </div>
+
+                
+
+            </div>
+        </div>
+    );
+}
+
+export default Projetos;
