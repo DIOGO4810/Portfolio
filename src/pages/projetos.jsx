@@ -22,7 +22,7 @@ function Projetos() {
               gestão de estados imutáveis. Utilizou-se Gloss para desenhar
               gráficos 2D e animar o jogo, e o projeto permitiu explorar os
               desafios de implementar jogos sem usar loops imperativos, típicos
-              de linguagens imperativas.br
+              de linguagens imperativas.
             </p>
             <br />
             <a href="https://github.com/DIOGO4810/LI1">
