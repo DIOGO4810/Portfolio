@@ -7,8 +7,8 @@ function Navbar() {
     <div className="nav">
         <nav className="nav-links">
             <Link to = "/"> Home</Link>
-            <Link to = "/competencias"> Competências</Link>
-            <Link to = "/projetos"> Projetos</Link>
+            <Link to="/skills"> Skills</Link>
+            <Link to="/projects"> Projects</Link>
             
         </nav>
         

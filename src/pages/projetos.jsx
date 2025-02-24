@@ -10,22 +10,26 @@ function Projetos() {
 
   return (
     <div className="body">
-      <h1 className="title">Projetos</h1>
+      <h1 className="title">Projects</h1>
       <div className="grid-parent">
         <div className="row">
           <div className="container size-2">
-            <h2 className="title">Donkey Kong em haskell</h2>
+            <h2 className="title">Donkey Kong in haskell</h2>
             <p className="text">
-              Este projeto recriou o jogo Donkey Kong usando Haskell e a
-              biblioteca Gloss para gráficos. O objetivo foi aprender
-              programação funcional, aplicando conceitos como funções puras e
-              gestão de estados imutáveis. Utilizou-se Gloss para desenhar
-              gráficos 2D e animar o jogo, e o projeto permitiu explorar os
-              desafios de implementar jogos sem usar loops imperativos, típicos
-              de linguagens imperativas.
+              This project recreated the game Donkey Kong using Haskell and the
+              Gloss library for graphics. The goal was to learn functional
+              programming by applying concepts such as pure functions and
+              immutable state management. Gloss was used to render 2D graphics
+              while animating the game, allowing for the exploration of
+              challenges in implementing games without imperative loops, which
+              are typical in imperative languages.
             </p>
             <br />
-            <a href="https://github.com/DIOGO4810/LI1">
+            <a
+              href="https://github.com/DIOGO4810/LI1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon
                 icon="devicon:github"
                 width="25"
@@ -36,17 +40,20 @@ function Projetos() {
           </div>
 
           <div className="container size-2">
-            <h2 className="title">Backend do spotify</h2>
+            <h2 className="title">Spotify Backend</h2>
             <p className="text">
-              Projeto em C que envolveu ler arquivos CSV e armazenar informações
-              em estruturas de dados eficientes. O foco foi criar queries que
-              permitissem acessar dados de maneira rápida e eficiente, como
-              buscar músicas, artistas ou informações de usuários. O projeto
-              proporcionou um grande aprendizado sobre eficiência de algoritmos
-              e o uso de estruturas de dados para manipular grandes volumes de
-              dados.
+              A C project that involved reading CSV files and storing
+              information in efficient data structures. The focus was on
+              creating queries that allowed quick and efficient data access,
+              such as searching for songs, artists, or user information. This
+              project provided valuable learning about algorithm efficiency and
+              the use of data structures to handle large volumes of data.
             </p>
-            <a href="https://github.com/DIOGO4810/LI3">
+            <a
+              href="https://github.com/DIOGO4810/LI3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon
                 icon="devicon:github"
                 width="25"
@@ -57,17 +64,21 @@ function Projetos() {
           </div>
 
           <div className="container size-2">
-            <h2 className="title">Gerenciador de Recursos</h2>
+            <h2 className="title">Resource Manager</h2>
             <p className="text">
-              Projeto em C que centraliza informações do PC em uma única
-              ferramenta. Em vez de precisar abrir várias aplicações para
-              verificar dados como consumo de bateria, uso de RAM, memória
-              disponível, utilização do processador e tempo ligado, o projeto
-              fornece acesso a todos esses recursos em uma interface simples. A
-              ferramenta visa facilitar o monitoramento do desempenho e consumo
-              do sistema, sem a necessidade de múltiplas aplicações.
+              A C project that centralizes PC information in a single tool.
+              Instead of opening multiple applications to check data such as
+              battery consumption, RAM usage, available memory, CPU utilization,
+              and uptime, this project provides access to all these resources in
+              a simple interface. The tool aims to facilitate system performance
+              and consumption monitoring without the need for multiple
+              applications.
             </p>
-            <a href="https://github.com/DIOGO4810/Gerenciador-de-Recursos">
+            <a
+              href="https://github.com/DIOGO4810/Gerenciador-de-Recursos"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon
                 icon="devicon:github"
                 width="25"
@@ -78,16 +89,20 @@ function Projetos() {
           </div>
 
           <div className="container size-2">
-            <h2 className="title">Portfólio</h2>
+            <h2 className="title">Portfolio</h2>
             <p className="text">
-              Site criado com React, JavaScript, HTML e CSS, com a intenção de
-              ser uma extensão do meu CV. O objetivo foi oferecer uma visão mais
-              completa sobre quem sou, destacando minhas habilidades e projetos
-              de forma interativa. Além disso, o projeto me permitiu aprender e
-              aplicar o processo de deploy de uma aplicação web, garantindo que
-              o site estivesse acessível online para qualquer visitante.
+              A website built with React, JavaScript, HTML, and CSS, intended to
+              be an extension of my CV. The goal was to provide a more
+              comprehensive view of who I am, highlighting my skills and
+              projects in an interactive way. Additionally, this project allowed
+              me to learn and apply the deployment process of a web application,
+              ensuring that the site was accessible online to any visitor.
             </p>
-            <a href="https://github.com/DIOGO4810/Portfolio">
+            <a
+              href="https://github.com/DIOGO4810/Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon
                 icon="devicon:github"
                 width="25"
