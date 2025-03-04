@@ -14,6 +14,31 @@ function Projetos() {
       <div className="grid-parent">
         <div className="row">
           <div className="container size-2">
+            <h2 className="title">Expense Manager</h2>
+            <p className="text">
+              Developed in Python, this application offers an
+              intuitive graphical interface for managing monthly expenses. It
+              supports real-time updates, dynamically adjusting the pie chart to
+              reflect spending changes. Users can save multiple graphs and
+              reload them, making it easier to analyze
+              financial trends over time.
+            </p>
+            <br />
+            <a
+              href="https://github.com/DIOGO4810/Expense-manager"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="devicon:github"
+                width="25"
+                height="25"
+                className="centraIcons"
+              />
+            </a>
+          </div>
+
+          <div className="container size-2">
             <h2 className="title">Donkey Kong in haskell</h2>
             <p className="text">
               This project recreated the game Donkey Kong using Haskell and the
