@@ -1,3 +1,6 @@
+@import 'navbar.css';
+
+
 @keyframes hackingTitle {
   0% {
     color: rgb(1, 52, 34);
@@ -29,6 +32,19 @@
   100% {
     transform: translateY(0);
   }
+}
+
+.button {
+  border-radius: 8px;
+  border: 2px solid rgb(1, 136, 89);
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  animation: hackingEffect 5s linear infinite;
+
+
 }
 
 .grid-parent {
@@ -127,7 +143,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
   border-radius: 6px;
   border: 2px solid aquamarine;
   background-color: antiquewhite;
@@ -149,7 +165,7 @@
     grid-template-columns: repeat(3,minmax(80px, 1fr) ); 
     gap: 20px; /* Espaçamento entre os itens */
     justify-content: center;
-    align-items: center;
+    align-items: center ;
     border-radius: 6px;
     border: 2px solid aquamarine;
     background-color: antiquewhite;
@@ -172,6 +188,10 @@
 
   .centraIcons{
     margin-top: 5px;
+  }
+
+  .textPadding {
+    padding:3px;
   }
 
 

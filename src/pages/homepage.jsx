@@ -2,51 +2,77 @@ import { useState } from "react";
 import "../CSS/pages.css";
 import { Icon } from "@iconify/react";
 
-function Homepage() {
-  const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked((prev) => !prev);
-  };
+
+const handleDownloadAndOpen = (event, fileUrl, fileName) => {
+  event.preventDefault(); // Impede o comportamento padrão do link
+
+  window.open(fileUrl, "_blank");
+
+  const a = document.createElement("a");
+  a.href = fileUrl;
+  a.setAttribute("download", fileName); 
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+};
+
+
+function Homepage() {
+
 
   return (
     <div>
       <h2 className="title">Home</h2>
       <div className="grid-parent">
         <div className="containerAbout size-1">
-          <h1 className="title titleAbout">About me</h1>
-          <p className="text ">
-            Hello, my name is Diogo👋
-            <br /> <br />
-            I am a Computer Engineering student at the University of Minho, and
-            programming has sparked my curiosity since the 9th grade. I live in
-            Braga, in the parish of Palmeira, and I like to divide my time
-            between studying and other activities that motivate me. Besides
-            programming, running is one of my greatest passions, helping me
-            maintain a balance between focus and well-being.
-            <br />
-            <a
-              href="https://github.com/DIOGO4810"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon icon="devicon:github" width="25" height="25" />
-            </a>
-            <a
-              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwRrkDpKgLLTzWVvcqGNDRxBTlTdTXnLWJTKkThVPzLKlNGBDHPzsXjmqcVNFQgSSFrxcJC"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon icon="logos:google-gmail" width="25" height="25" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/diogo-ribeiro-71742420b"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon icon="logos:linkedin-icon" width="25" height="25" />
-            </a>
-          </p>
+          <div>
+            <h1 className="title ">About me</h1>
+            <p className="text">
+              Hello, my name is Diogo👋
+              <br />
+              I am a Computer Engineering student at the University of Minho,
+              and programming has sparked my curiosity since the 9th grade. I
+              live in Braga, in the parish of Palmeira, and I like to divide my
+              time between studying and other activities that motivate me.
+              Besides programming, running is one of my greatest passions,
+              helping me maintain a balance between focus and well-being.
+              <br />
+              <div style={{ margin: "10px" }}>
+                <a
+                  rel="noopener noreferrer"
+                  className="button"
+                  onClick={(e) =>
+                    handleDownloadAndOpen(e, "/CVDiogo.pdf", "CVDiogo.pdf")
+                  }
+                >
+                  Download my CV
+                </a>
+              </div>
+              <br />
+              <a
+                href="https://github.com/DIOGO4810"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon="devicon:github" width="25" height="25" />
+              </a>
+              <a
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwRrkDpKgLLTzWVvcqGNDRxBTlTdTXnLWJTKkThVPzLKlNGBDHPzsXjmqcVNFQgSSFrxcJC"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon="logos:google-gmail" width="25" height="25" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/diogo-ribeiro-71742420b"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon="logos:linkedin-icon" width="25" height="25" />
+              </a>
+            </p>
+          </div>
           <img src="DiogoV2.jpeg" className="imagem" alt="Diogo" />
         </div>
 
