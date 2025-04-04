@@ -16,12 +16,11 @@ function Projetos() {
           <div className="container size-2">
             <h2 className="title">Expense Manager</h2>
             <p className="text">
-              Developed in Python, this application offers an
-              intuitive graphical interface for managing monthly expenses. It
-              supports real-time updates, dynamically adjusting the pie chart to
-              reflect spending changes. Users can save multiple graphs and
-              reload them, making it easier to analyze
-              financial trends over time.
+              Developed in Python, this application offers an intuitive
+              graphical interface for managing monthly expenses. It supports
+              real-time updates, dynamically adjusting the pie chart to reflect
+              spending changes. Users can save multiple graphs and reload them,
+              making it easier to analyze financial trends over time.
             </p>
             <br />
             <a
@@ -37,21 +36,16 @@ function Projetos() {
               />
             </a>
           </div>
-
           <div className="container size-2">
-            <h2 className="title">Donkey Kong in haskell</h2>
+            <h2 className="title">RecipeNest</h2>
             <p className="text">
-              This project recreated the game Donkey Kong using Haskell and the
-              Gloss library for graphics. The goal was to learn functional
-              programming by applying concepts such as pure functions and
-              immutable state management. Gloss was used to render 2D graphics
-              while animating the game, allowing for the exploration of
-              challenges in implementing games without imperative loops, which
-              are typical in imperative languages.
+              RecipeNest is a recipe app developed with React Native and Expo,
+              designed to help users easily find and organize what recipes to
+              cook based on the ingredients available at home, in a simple and
+              intuitive way. The app uses expo-sqlite to store data locally.
             </p>
-            <br />
             <a
-              href="https://github.com/DIOGO4810/LI1"
+              href="https://github.com/DIOGO4810/RecipeNest"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,6 +57,7 @@ function Projetos() {
               />
             </a>
           </div>
+
 
           <div className="container size-2">
             <h2 className="title">Spotify Backend</h2>
@@ -136,6 +131,57 @@ function Projetos() {
               />
             </a>
           </div>
+
+          <div className="container size-2">
+            <h2 className="title">CriptoPredictor</h2>
+            <p className="text">
+              This project is part of the 3rd edition of BugsByte (2025), a
+              Hackathon organized by CeSium. Our team chose the theme of a price
+              predictor for crypto assets and baskets. To achieve this, we
+              decided to develop a mobile application built with React Native.
+              Using TensorFlow and Gemini API to predict the assets future
+              prices.
+            </p>
+            <a
+              href="https://github.com/DIOGO4810/BugsByte"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="devicon:github"
+                width="25"
+                height="25"
+                className="centraIcons"
+              />
+            </a>
+          </div>
+
+          <div className="container size-2">
+            <h2 className="title">Donkey Kong in haskell</h2>
+            <p className="text">
+              This project recreated the game Donkey Kong using Haskell and the
+              Gloss library for graphics. The goal was to learn functional
+              programming by applying concepts such as pure functions and
+              immutable state management. Gloss was used to render 2D graphics
+              while animating the game, allowing for the exploration of
+              challenges in implementing games without imperative loops, which
+              are typical in imperative languages.
+            </p>
+            <br />
+            <a
+              href="https://github.com/DIOGO4810/LI1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon
+                icon="devicon:github"
+                width="25"
+                height="25"
+                className="centraIcons"
+              />
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
