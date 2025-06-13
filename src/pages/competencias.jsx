@@ -14,7 +14,10 @@ const skills = [
   { icon: "devicon:sqlite-wordmark", link: "https://www.sqlite.org/" },
   { icon: "skill-icons:bash-dark", link: "https://www.gnu.org/software/bash/" },
   { icon: "devicon:git", link: "https://git-scm.com/" },
-  { icon: "skill-icons:css", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" }
+  { icon: "skill-icons:css", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+  { icon: "devicon:mysql-wordmark", link: "https://www.mysql.com" },
+  { icon: "devicon:java", link: "https://dev.java/" }
+
 ];
 
 function getRandomMotion() {
