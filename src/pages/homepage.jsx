@@ -2,8 +2,6 @@ import { useState } from "react";
 import "../CSS/pages.css";
 import { Icon } from "@iconify/react";
 
-
-
 const handleDownloadAndOpen = (event, fileUrl, fileName) => {
   event.preventDefault(); // Impede o comportamento padrão do link
 
@@ -11,15 +9,13 @@ const handleDownloadAndOpen = (event, fileUrl, fileName) => {
 
   const a = document.createElement("a");
   a.href = fileUrl;
-  a.setAttribute("download", fileName); 
+  a.setAttribute("download", fileName);
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
 };
 
-
 function Homepage() {
-
   return (
     <div>
       <div className="grid-parent">
@@ -30,11 +26,12 @@ function Homepage() {
               Hello, my name is Diogo👋
               <br />
               I am a Computer Engineering student at the University of Minho,
-              and programming has sparked my curiosity since the 9th grade. I
-              live in Braga, in the parish of Palmeira, and I like to divide my
-              time between studying and other activities that motivate me.
-              Besides programming, running is one of my greatest passions,
-              helping me maintain a balance between focus and well-being.
+              and a junior researcher in Haslab/ INESC TEC in the Distributed
+              Storage Research department. I live in Braga, in the parish of
+              Palmeira, and I like to divide my time between programming and other
+              activities that motivate me. Besides programming, running is one
+              of my greatest passions, helping me maintain a balance between
+              focus and well-being.
               <br />
               <div style={{ margin: "10px" }}>
                 <a
@@ -103,8 +100,7 @@ function Homepage() {
               I also have an interest in infrastructure, from configuring and
               managing servers to system scalability. Understanding how
               large-scale applications are implemented and maintained is
-              something I haven't had the chance to explore as much as I would
-              like.
+              something I want to have the chance to explore even more.
             </p>
           </div>
           <div className="container size-2">
