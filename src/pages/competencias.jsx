@@ -4,9 +4,10 @@ import { Icon } from "@iconify/react";
 const skills = [
   { icon: "devicon:c", link: "https://en.wikipedia.org/wiki/C_(programming_language)" },
   { icon: "skill-icons:javascript", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-  { icon: "skill-icons:haskell-light", link: "https://www.haskell.org/" },
+{ icon: "devicon:postgresql", link: "https://www.postgresql.org/" },
   { icon: "skill-icons:linux-light", link: "https://www.linux.org/" },
-  { icon: "skill-icons:tailwindcss-dark", link: "https://tailwindcss.com/" },
+  { icon: "devicon:mysql-wordmark", link: "https://www.mysql.com" },
+  { icon: "devicon:java", link: "https://dev.java/" },
   { icon: "devicon:python", link: "https://www.python.org/" },
   { icon: "skill-icons:html", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
   { icon: "skill-icons:react-dark", link: "https://react.dev/" },
@@ -15,9 +16,7 @@ const skills = [
   { icon: "skill-icons:bash-dark", link: "https://www.gnu.org/software/bash/" },
   { icon: "devicon:git", link: "https://git-scm.com/" },
   { icon: "skill-icons:css", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-  { icon: "devicon:mysql-wordmark", link: "https://www.mysql.com" },
-  { icon: "devicon:java", link: "https://dev.java/" }
-
+  { icon: "skill-icons:haskell-light", link: "https://www.haskell.org/" },
 ];
 
 function getRandomMotion() {
